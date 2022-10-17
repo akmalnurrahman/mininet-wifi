@@ -50,6 +50,9 @@ def topology(args):
     net.build()
     ap1.start([])
     ap2.start([])
+    ap3.start([])
+    ap4.start([])
+    ap5.start([])
 
     info("*** Running CLI\n")
     CLI(net)
